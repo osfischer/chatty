@@ -1,0 +1,43 @@
+/* 
+    Name: Oscar Fischer
+    Class: CSC337
+    This is the styling for PA8. It seperates the page into two sections: the chat area
+    and the area to send the message.
+*/
+
+body {
+    background-color: lightseagreen;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 18px;
+    color: white;
+}
+
+#body{
+    width: 98%;
+    height: 70%;
+    background-color: #000334;
+    position: absolute;
+    margin: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#userInput {
+    position: absolute;
+    margin-left: 10%;
+    bottom: 12%;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 15px;
+}

@@ -1,0 +1,26 @@
+<!--
+    Name: Oscar Fischer
+    Class: CSC 337
+    This is the chat page for PA8. It allows the user to send messages to one another
+    using a name by the user's choosing.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Chatty</title>
+        <link rel="stylesheet" href="./style.css">
+        <script rel="javascript" src="./scripting.js"></script>
+    </head>
+
+    <body>
+        <div id="body"></div>
+        <div id="userInput">
+            <label for="alias">Alias:</label>
+            <input type="text" id="alias"> <br>
+            <label for="message">Message:</label>
+            <input type="text" id="message"> <br>
+            <button type="button" onclick="sendText()">Send Message</button>
+        </div>
+    </body>
